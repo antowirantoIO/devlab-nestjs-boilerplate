@@ -1,4 +1,4 @@
-name: ack-nestjs-boilerplate
+name: devlab-nestjs-boilerplate
 
 services:
 
@@ -25,7 +25,7 @@ services:
         hostname: redis
         restart: on-failure
         ports:
-            - '6379:6379'
+            - '6380:6379'
         volumes:
             - redis_data:/data
         networks:
@@ -47,7 +47,7 @@ services:
             - app-network
         environment:
             - REDIS_HOST=redis
-            - REDIS_PORT=6379
+            - REDIS_PORT=6380
             - BULL_PREFIX=bull
             - USER_LOGIN=admin
             - USER_PASSWORD=admin123
