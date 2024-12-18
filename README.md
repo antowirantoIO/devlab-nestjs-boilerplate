@@ -287,7 +287,7 @@ If your code behind commit with the `origin/main` branch, please update your cod
 
 ## Contact
 
-[Andre Christi kan][author-email]
+[Anto Wiranto][author-email]
 
 [![Github][github-shield]][author-github]
 [![LinkedIn][linkedin-shield]][author-linkedin]

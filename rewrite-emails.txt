@@ -1,0 +1,23 @@
+name-map:
+  "ack@baibay.id" "antowirantoIO"
+  "admondtamang@gmail.com" "antowirantoIO"
+  "ak2g@outlook.com" "antowirantoIO"
+  "andrechristikan@gmail.com" "antowirantoIO"
+  "bipinprjl@gmail.com" "antowirantoIO"
+  "connect.thioalli@gmail.com" "antowirantoIO"
+  "fasihrehman.malik@gmail.com" "antowirantoIO"
+  "kunalrawat425@gmail.com" "antowirantoIO"
+  "pauljiang61020@gmail.com" "antowirantoIO"
+  "truongnq017@gmail.com" "antowirantoIO"
+email-map:
+  "ack@baibay.id" "antowrnto11@gmail.com"
+  "admondtamang@gmail.com" "antowrnto11@gmail.com"
+  "ak2g@outlook.com" "antowrnto11@gmail.com"
+  "andrechristikan@gmail.com" "antowrnto11@gmail.com"
+  "bipinprjl@gmail.com" "antowrnto11@gmail.com"
+  "connect.thioalli@gmail.com" "antowrnto11@gmail.com"
+  "fasihrehman.malik@gmail.com" "antowrnto11@gmail.com"
+  "kunalrawat425@gmail.com" "antowrnto11@gmail.com"
+  "pauljiang61020@gmail.com" "antowrnto11@gmail.com"
+  "truongnq017@gmail.com" "antowrnto11@gmail.com"
+
