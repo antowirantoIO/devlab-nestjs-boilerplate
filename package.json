@@ -1,14 +1,14 @@
 {
-    "name": "ack-nestjs-boilerplate",
+    "name": "devlab-nestjs-boilerplate",
     "version": "7.2.0",
-    "description": "Ack NestJs Boilerplate",
+    "description": "Devlab NestJs Boilerplate",
     "repository": {
         "type": "git",
-        "url": "https://github.com/andrechristikan/ack-nestjs-boilerplate.git"
+        "url": "https://github.com/antowiranto/devlab-nestjs-boilerplate.git"
     },
     "author": {
-        "name": "andrechristikan",
-        "email": "andrechristikan@gmail.com"
+        "name": "antowiranto",
+        "email": "anto@devlab.id"
     },
     "private": true,
     "license": "MIT",

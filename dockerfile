@@ -1,16 +1,18 @@
-FROM node:lts-alpine
-LABEL maintainer "andrechristikan@gmail.com"
+FROM node:lts-alpine AS development
 
-ENV NODE_ENV=${NODE_ENV}
+LABEL maintainer="anto@devlab.id"
 
 WORKDIR /app
-EXPOSE 3000
 
 COPY package.json yarn.lock ./
-RUN touch .env
 
-RUN set -x && yarn --frozen-lockfile
+RUN yarn install --frozen-lockfile
 
 COPY . .
 
-CMD [ "yarn", "start:dev" ]
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+EXPOSE 3000
+
+ENTRYPOINT ["docker-entrypoint.sh"]
